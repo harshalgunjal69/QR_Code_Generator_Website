@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-a {
+.button-glow {
     background-color: rgb(49, 105, 183);
     text-decoration: none;
     padding: 15px 25px;
@@ -17,12 +17,12 @@ a {
     color: #fff;
     border-radius: 10px;
     display: inline-block;
-    transition: .8s ease
+    transition: .5s ease
 }
 
-a:hover {
+.button-glow:hover {
     -webkit-box-shadow: 0px 0px 80px 0px rgba(49, 105, 183, 1);
     -moz-box-shadow: 0px 0px 80px 0px rgba(49, 105, 183, 1);
     box-shadow: 0px 0px 80px 0px rgba(49, 105, 183, 1);
-    transition: .8s ease;
+    transition: .5s ease;
 }
