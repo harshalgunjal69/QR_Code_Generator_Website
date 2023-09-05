@@ -79,9 +79,9 @@ body {
     opacity: 1;
 }
 
-.glow-effect:hover:active {
+/* .glow-effect:hover:active {
     background: none;
-}
+} */
 
 .glow-effect:hover:active:before {
     filter: blur(2px);
