@@ -27,7 +27,6 @@ def generateQR():
     img.save(memory)
     memory.seek(0)
     base64_img = "data:image/png;base64," + base64.b64encode(memory.getvalue()).decode('ascii')
-
     return render_template('index.html', data=base64_img)
     
 
